@@ -1,0 +1,13 @@
+@import 'base/vairables';
+@import 'base/mixin';
+@import 'base/animations';
+
+* {
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0px auto;
+}
