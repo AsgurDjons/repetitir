@@ -3,6 +3,7 @@
 @import 'base/animations';
 
 * {
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0px 0px;
 	font-family: 'Roboto', sans-serif
@@ -14,3 +15,4 @@
 }
 
 @import 'block/header';
+@import 'block/about-me'
