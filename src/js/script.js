@@ -15,14 +15,12 @@ window.addEventListener('DOMContentLoaded', () => {
     function showPhoto () {
         let img = document.querySelector('.my-photo');
         if (window.pageYOffset >= 600)  {
-            img.classList.add('show_photo');
+            img.classList.add('show_animation');
         }
     }
 
     window.addEventListener('scroll', () => {
         showPhoto ();
     });
-
-    console.log(window.pageYOffset);
 
 });

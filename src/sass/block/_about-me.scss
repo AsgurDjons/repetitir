@@ -7,14 +7,14 @@
     min-height: 400px;
     background-image: linear-gradient(-225deg,rgba(48,35,174,.4),rgba(83,160,253,.4) 30%,rgba(180,236,81,.4));
 }
-.bg_about-me_revers {
-    min-height: 400px;
-    background-image: linear-gradient(-225deg,rgba(180,236,81,.4),rgba(83,160,253,.4)60%,rgba(48,35,174,.4));
-}
-
 .bg_waite {
     height: 200px;
     background-image: linear-gradient(90deg,#fff 5%,#ffbe31 50%,#fff 95%);
+}
+
+.bg_about-me_revers {
+    min-height: 400px;
+    background-image: linear-gradient(-225deg,rgba(180,236,81,.4),rgba(83,160,253,.4)60%,rgba(48,35,174,.4));
 }
 
 .about-me {
@@ -35,10 +35,11 @@
     width: 400px;
     height: 100%;
     border-radius: 30px;
+    box-shadow:0px 0px 20px 0px black;
     opacity: 0;
 }
 
-.show_photo {
+.show_animation {
     animation: text-show 3s;
     opacity: 1;
 }
@@ -55,16 +56,18 @@
 
 .about-me_descr {
     margin: 0;
+    text-align: justify;
     width: 63%;
     font-size: 25px;
-    line-height: 50px;
-    padding: 50px 0 0 50px;
+    line-height: 40px;
+    padding: 0px 0 0 50px;
     font-style: italic;
     text-shadow: 2px 3px 20px #087981;
 }
 .span {
+    padding: 0 0 0 50px;
+    line-height: 70px;
     font-size: 30px;
-    padding-right: 15px;
     text-decoration: underline;
 
 }
