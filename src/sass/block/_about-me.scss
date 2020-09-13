@@ -1,5 +1,4 @@
 .block-my {
-    // margin-top: 50px;
     position: relative;
     height: 100%;
 }
@@ -15,6 +14,7 @@
 
 .bg_waite {
     height: 200px;
+    background-image: linear-gradient(90deg,#fff 5%,#ffbe31 50%,#fff 95%);
 }
 
 .about-me {
@@ -25,7 +25,6 @@
     width: 100%;
     box-shadow: 0px 0px 20px 1px black;
     background-color: #e1f1dd;
-    // background-color: white;
     border-radius: 30px;
 }
 
@@ -36,20 +35,30 @@
     width: 400px;
     height: 100%;
     border-radius: 30px;
+    opacity: 0;
 }
+
+.show_photo {
+    animation: text-show 5s;
+    opacity: 1;
+}
+
+.span_header {
+    font-size: 35px;
+}
+
 .about-me_header {
     font-size: 32px;
-    text-shadow: 10px 10px 10px #383838, 10px 10px 90px #000000;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .about-me_descr {
     margin: 0;
     width: 63%;
     font-size: 25px;
-    line-height: 55px;
-    padding: 50px 0 0 20px;
+    line-height: 50px;
+    padding: 50px 0 0 50px;
     font-style: italic;
     text-shadow: 2px 3px 20px #087981;
 }
@@ -57,6 +66,5 @@
     font-size: 30px;
     padding-right: 15px;
     text-decoration: underline;
-    text-shadow: 10px 10px 10px #383838, 10px 10px 90px #000000;
 
 }

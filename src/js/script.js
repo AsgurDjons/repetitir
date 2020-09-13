@@ -12,4 +12,15 @@ window.addEventListener('DOMContentLoaded', () => {
     showHeader('.header', textHeader, 2000);
     showHeader('.wrapper', textSubscr, 3000);
 
+
+    function showPhoto () {
+        let img = document.querySelector('.my-photo');
+        if (window.pageYOffset >= 200)  {
+            img.classList.add('show_photo');
+        }
+    }
+
+    window.addEventListener('scroll', () => {
+        showPhoto ();
+    });
 });
