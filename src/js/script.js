@@ -9,13 +9,12 @@ window.addEventListener('DOMContentLoaded', () => {
             blocks.innerHTML = text;
         }, time);
     }
-    showHeader('.header', textHeader, 2000);
-    showHeader('.wrapper', textSubscr, 3000);
-
+    showHeader('.header', textHeader, 1000);
+    showHeader('.wrapper', textSubscr, 2000);
 
     function showPhoto () {
         let img = document.querySelector('.my-photo');
-        if (window.pageYOffset >= 200)  {
+        if (window.pageYOffset >= 600)  {
             img.classList.add('show_photo');
         }
     }
@@ -23,4 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         showPhoto ();
     });
+
+    console.log(window.pageYOffset);
+
 });
