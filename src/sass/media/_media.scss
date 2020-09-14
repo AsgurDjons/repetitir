@@ -1,0 +1,120 @@
+@media  (max-width: 1399px) {
+    .container {
+        max-width: 1320px;
+    }
+};
+
+@media  (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .bg-header {
+        min-height: 750px;
+    }
+    .phone .phne_link{
+        font-size: 20px;
+    }
+    .header {
+        font-size: 50px;
+    }
+    .span-header {
+        font-size: 50px;
+        line-height: 100px;
+    }
+    .wrapper {
+        margin-top: 90px;
+    }
+    .subscr {
+        font-size: 35px;
+    }
+    .bg_about-me,.bg_about-me_revers {
+        min-height: 320px;
+    }
+    .bg_waite {
+        height: 150px;
+        background-image: linear-gradient(180deg,#fff 5%,#ffbe31 50%,#fff 95%);
+    }
+    .about-me {
+        top: 9%;
+        min-height: 70%;
+    }
+    .my-photo {
+        width: 320px;
+    }
+    .span_header {
+        font-size: 30px;
+    }
+    .about-me_header {
+        font-size: 28px;
+    }
+    .about-me_descr {
+        font-size: 22px;
+    }
+    .span {
+        font-size: 28px;
+    }
+};
+
+@media  (max-width: 992px) {
+    .container {
+        min-width: 960px;
+    }
+    .bg_about-me,.bg_about-me_revers {
+        min-height: 320px;
+    }
+    .bg_waite {
+        height: 150px;
+        background-image: linear-gradient(180deg,#fff 5%,#ffbe31 50%,#fff 95%);
+    }
+    .about-me {
+        top: 12%;
+        min-height: 70%;
+    }
+    .my-photo {
+        width: 320px;
+        margin: 20px 20px 0 0;
+    }
+    .span_header {
+        font-size: 28px;
+    }
+    .about-me_header {
+        font-size: 26px;
+    }
+    .about-me_descr {
+        font-size: 20px;
+        padding: 0 0 0 20px;
+    }
+    .span {
+        font-size: 26px;
+        line-height: 50px;
+        padding: 0 0 0 20px;
+    }
+}
+
+@media  (max-width: 768px) {
+    .container {
+        min-width: 720px;
+    }
+    .phone {
+        width: 35%;
+    }
+    .header {
+        padding-top: 90px;
+        font-size: 40px;
+    }
+    .span-header {
+        font-size: 40px;
+        line-height: 90px;
+    }
+    .about-me {
+        top: 9%;
+        min-height: 70%;
+    }
+    .my-photo {
+        width: 300px;
+        margin: 20px 20px 0 0;
+    }
+    .about-me_descr {
+        width: 55%;
+    }
+}
