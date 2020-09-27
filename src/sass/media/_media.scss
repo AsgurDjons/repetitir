@@ -1,12 +1,12 @@
 @media  (max-width: 1399px) {
     .container {
-        max-width: 1320px;
+        width: 1320px;
     }
 };
 
 @media  (max-width: 1200px) {
     .container {
-        max-width: 1140px;
+        width: 1140px;
     }
     .bg-header {
         min-height: 750px;
@@ -57,7 +57,10 @@
 
 @media  (max-width: 992px) {
     .container {
-        min-width: 960px;
+        width: 960px;
+    }
+    .phone .phne_link {
+        font-size: 19px;
     }
     .bg_about-me,.bg_about-me_revers {
         min-height: 320px;
@@ -67,11 +70,12 @@
         background-image: linear-gradient(180deg,#fff 5%,#ffbe31 50%,#fff 95%);
     }
     .about-me {
+        width: 98%;
         top: 12%;
         min-height: 70%;
     }
     .my-photo {
-        width: 320px;
+        width: 315px;
         margin: 20px 20px 0 0;
     }
     .span_header {
@@ -93,7 +97,7 @@
 
 @media  (max-width: 768px) {
     .container {
-        min-width: 720px;
+        width: 720px;
     }
     .phone {
         width: 35%;
@@ -110,11 +114,49 @@
         top: 9%;
         min-height: 70%;
     }
-    .my-photo {
-        width: 300px;
-        margin: 20px 20px 0 0;
+    .bg_waite {
+        height: 200px;
     }
+    .bg_about-me,
+    .bg_about-me_revers {
+        height: 525px;
+    }
+    .about-me_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .my-photo {
+        margin: 20px auto;
+    }
+    .about-me_header,
+    .about-me_descr,
     .about-me_descr {
-        width: 55%;
+        width: 85%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media  (max-width: 576px) {
+    .container {
+        width: 540px;
+    }
+    .bg-header {
+        min-height: 700px;
+    }
+    .phone {
+        width: 50%;
+    }
+    .span-header {
+        font-size: 30px;
+    }
+    .header {
+        font-size: 30px;
+    }
+    .subscr {
+        font-size: 30px;
+    }
+    .about-me {
+        top: 4%;
     }
 }
