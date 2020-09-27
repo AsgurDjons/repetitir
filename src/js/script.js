@@ -11,11 +11,19 @@ window.addEventListener('DOMContentLoaded', () => {
     }
     showHeader('.header', textHeader, 1000);
     showHeader('.wrapper', textSubscr, 2000);
+    if (document.documentElement.clientWidth <= 500) {
 
+    }
     function showPhoto () {
         let img = document.querySelector('.my-photo');
-        if (window.pageYOffset >= 600)  {
-            img.classList.add('show_animation');
+        if (document.documentElement.clientWidth <= 500) {
+            if (window.pageYOffset >= 450)  {
+                img.classList.add('show_animation');
+            }
+        }else {
+            if (window.pageYOffset >= 600)  {
+                img.classList.add('show_animation');
+            }
         }
     }
 
