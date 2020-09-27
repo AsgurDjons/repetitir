@@ -145,21 +145,61 @@
         overflow: hidden;
     }
     .bg-header {
-        min-height: 700px;
+        min-height: 650px;
+    }
+    .wrapper {
+        margin-top: 70px;
     }
     .phone {
         width: 50%;
     }
-    .span-header {
-        font-size: 30px;
+    .phone_img {
+        width: 40px;
+        height: 40px;
     }
-    .header {
-        font-size: 30px;
-    }
-    .subscr {
+    .span-header,
+    .subscr,
+    .header  {
         font-size: 30px;
     }
     .about-me {
         top: 4%;
+    }
+}
+
+@media  (max-width: 360px) {
+    .container {
+        width: 340px;
+        overflow: hidden;
+    }
+    .phone {
+        width: 75%;
+    }
+    .span-header,
+    .subscr,
+    .header  {
+        font-size: 20px;
+    }
+    .about-me {
+        top: 4%;
+    }
+    .bg_waite {
+        height: 150px;
+    }
+    .bg_about-me,
+    .bg_about-me_revers {
+        height: 445px;
+    }
+    .my-photo {
+        width: 300px;
+    }
+    .about-me_header,
+    .span,
+    .span_header {
+        font-size: 18px;
+    }
+    .about-me_descr {
+        font-size: 17px;
+        line-height: 20px;
     }
 }
