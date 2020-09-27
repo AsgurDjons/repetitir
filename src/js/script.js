@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
     function showPhoto () {
         let img = document.querySelector('.my-photo');
         if (document.documentElement.clientWidth <= 500) {
-            if (window.pageYOffset >= 450)  {
+            if (window.pageYOffset >= 400)  {
                 img.classList.add('show_animation');
             }
         }else {
