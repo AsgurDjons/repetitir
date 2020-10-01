@@ -9,19 +9,18 @@ window.addEventListener('DOMContentLoaded', () => {
             blocks.innerHTML = text;
         }, time);
     }
+
     showHeader('.header', textHeader, 1000);
     showHeader('.wrapper', textSubscr, 2000);
-    if (document.documentElement.clientWidth <= 500) {
 
-    }
     function showPhoto () {
         let img = document.querySelector('.my-photo');
         if (document.documentElement.clientWidth <= 500) {
-            if (window.pageYOffset >= 400)  {
+            if (window.pageYOffset >= 250)  {
                 img.classList.add('show_animation');
             }
         }else {
-            if (window.pageYOffset >= 600)  {
+            if (window.pageYOffset >= 340)  {
                 img.classList.add('show_animation');
             }
         }

@@ -1,0 +1,17 @@
+.descr-worck {
+    position: relative;
+    margin-top: 60px;
+    background: url('../img/bg-worck.jpg') center (center / cover) no-repeat;
+    height: 900px;
+    &::before {
+        content: '';
+        position: absolute;
+        top: -32.5px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 250px;
+        height: 5px;
+        background-color: black;
+        border-radius: 100%;
+    };
+}
