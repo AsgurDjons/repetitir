@@ -2,8 +2,8 @@
     position: relative;
     margin-top: 60px;
     width: 100%;
-    min-height: 1236px;
-    background: url('../img/bg-worck.jpg') center (center / cover) no-repeat;
+    min-height: 1000px;
+    background: url('../img/form.jpg') center (center / cover) no-repeat;
     height: 900px;
     background-attachment: fixed;
     &::before {
@@ -17,4 +17,11 @@
         background-color: black;
         border-radius: 100%;
     };
+}
+.bg-form {
+    background: rgba(255, 255, 255, 0.692);
+    border-radius: 10px;
+    width: 800px;
+    height: 600px;
+    top:  250px;
 }

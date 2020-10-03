@@ -24,7 +24,7 @@
 }
 
 .bg_about-me_revers {
-    min-height: 730px;
+    min-height: 330px;
     background-image: linear-gradient(-225deg,rgba(180,236,81,.4),rgba(83,160,253,.4)60%,rgba(48,35,174,.4));
 }
 
@@ -82,7 +82,8 @@
     text-decoration: underline;
 
 }
-// .teacher-match {
-//     position: relative;
-//     height: 400px;
-// }
+.teacher-match {
+    height: 700px;
+    background-color: rgb(246, 246, 246);
+    position: relative;
+}
