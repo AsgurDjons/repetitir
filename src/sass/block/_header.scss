@@ -59,3 +59,26 @@
     text-shadow: 10px 10px 10px #383838, 10px 10px 90px #000000;
     animation: text-show 1.5s;
 }
+.arrow-bottom {
+    margin: 250px auto;
+    width: 75px;
+    height: 65px;
+    
+}
+
+#more-arrows {
+    display: none;
+    width: 75px;
+    height: 100%;
+    animation: arrow-bottom 1.2s infinite ease-in-out;
+}
+polygon {
+    fill: #FFF;
+    transition: all .1s ease-out;
+    &.arrow-middle {
+        opacity: 0.75;
+	}
+	&.arrow-top {
+        opacity: 0.5
+    }
+}
