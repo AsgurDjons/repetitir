@@ -19,9 +19,49 @@
     };
 }
 .bg-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: rgba(255, 255, 255, 0.692);
     border-radius: 10px;
     width: 800px;
     height: 600px;
     top:  250px;
+}
+.my-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+.sub-heder {
+    width: 30%;
+    font-size: 28px;
+}
+input{
+    height: 45px;
+    font-size: 28px;
+    border-radius: 10px;
+    &:hover{
+        border: #0000ff solid 2px;
+        border-radius: 10px;
+    }
+    &:focus {
+        border: #37ff00 solid 2px;
+        border-radius: 10px;
+        outline: none
+    }
+}
+.btn_form {
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 10px;
 }
